@@ -9,10 +9,10 @@
   "scripts": {
     "postinstall": "node index.js init"
   },
-  "author": "iopanda",
+  "author": "Sivium Solutions",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iopanda/strapi-crack-ee.git"
+    "url": "https://github.com/SiviumSolutions/sivium-enterprice-check.git"
   }
 }
