@@ -20,8 +20,8 @@ const license = Buffer.from(`${signature64}\n${data64}`).toString("base64")
 let fp = null
 let fx = null
 if(__dirname == cwd() && process.argv[2] == 'init'){
-    fp = path.join(__dirname, "../../../license.txt")
-    fx = path.join(__dirname, "../../../node_modules/@strapi/strapi/resources/key.pub")
+    fp = path.join(__dirname, "../../license.txt")
+    fx = path.join(__dirname, "../../node_modules/@strapi/strapi/resources/key.pub")
 }else{
     fp = path.join(cwd(), 'license.txt')
     fx = path.join(cwd(), 'node_modules/@strapi/strapi/resources/key.pub')
